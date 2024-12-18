@@ -15,7 +15,11 @@ Au cours du projet, nous avons effectué un prétraitement approfondi des donné
 
 ### Resnet_Fisher
 -**Création de class Riad et Odir** : Le notebook permet de se connecter avec le drive ou' vous devez déposer les images et les csv. Ou, vous pouvez avoir accès au Drive pour pouvoir accéder facilement.
+
+
 -**Entrainement du modèle** : Le notebook permet aussi d'entrainer le modèle qui est un resnet50 plus un classifier pour pouvoir faire de la prédiction. Une fois le modèle est entrainé sur Riad. Une autre fois il est entrainé sur les deux base de données à l'aide de fishr. J'ai mis le lien vers les modèles déja entrainnés.
+
+
 -**Plot** : Il y'a aussi un code qui permet de tracer la valeur d'AUC par classe et aussi la valeur moyenne.
 ### BiomedClip
 
