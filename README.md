@@ -1,14 +1,12 @@
-# Commande enteprise Genaralisation de domaine pour la detection des pathologies oculaires
+# Commande Entreprise : Généralisation de Domaine pour la Détection des Pathologies Oculaires
 
+Dans le cadre du projet "Commande Entreprise", nous avons travaillé sur la détection multi-pathologique à partir d'images de fond d'œil en utilisant plusieurs modèles de Deep Learning. Un défi majeur pour le client était la perte de précision du modèle lors du changement de source de données, un phénomène appelé "Domain Shift". Nous avons donc expérimenté différents algorithmes afin de déterminer lesquels seraient les plus adaptés pour résoudre ce problème.
 
-  Dans le cadre du projet commande entreprise, nous avons travaillé sur la détection multi pathologique à partir d’image de fond d'œil via le développement de plusieurs modèles de Deep Learning. Le problème principal pour le client étant la perte de précision du modèle lorsque l’on change de source de données également appelé Domain Shift. Nous avons donc manipulé différents algorithmes afin de déterminer lesquels seraient adaptés à la résolution de ce problème.
+## Prétraitement des Données
 
-Durant notre travail on a fait un pretraitement des donnais qui est présent dans les statistiques les bases de données qu'on à utilisées sont ODIR, RIADD et Kaggle DR+. Le code de pretraitement des données existe dans le dossier Statistique.
+Au cours du projet, nous avons effectué un prétraitement approfondi des données, reflété dans l'analyse statistique. Les bases de données que nous avons utilisées incluent ODIR, RIADD et Kaggle DR+. Le code de prétraitement des données est disponible dans le dossier `Statistique`.
 
+## Utilisation des Modèles
 
-Pou
-
-
-
-
-
+### RetFound
+- **Finetuning de toutes les couches** : Le notebook fourni permet de télécharger les données depuis le site du client (avec des liens configurables), de récupérer les labels dans le dossier `CSV_files`, et de formater les données pour les rendre compatibles avec les exigences d'entrée de RetFound.
