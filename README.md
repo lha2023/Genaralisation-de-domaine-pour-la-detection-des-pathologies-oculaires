@@ -10,3 +10,6 @@ Au cours du projet, nous avons effectué un prétraitement approfondi des donné
 
 ### RetFound
 - **Finetuning de toutes les couches** : Le notebook fourni permet de télécharger les données depuis le site du client (avec des liens configurables), de récupérer les labels dans le dossier `CSV_files`, et de formater les données pour les rendre compatibles avec les exigences d'entrée de RetFound.
+
+- **Finetuning de la couche dense** : Pour effectuer cette tâche, il est nécessaire de modifier certaines lignes de code dans le repository GitHub, ce qui permettra de ne mettre à jour que les poids de la couche dense. Les codes nécessaires pour cela sont disponibles dans le dossier `RetFound`.
+
