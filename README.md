@@ -23,3 +23,6 @@ Au cours du projet, nous avons effectué un prétraitement approfondi des donné
 - **Plot** : Il y'a aussi un code qui permet de tracer la valeur d'AUC par classe et aussi la valeur moyenne.
 ### BiomedClip
 
+- **Zero-shot** : Une première version de zero-shot est disponible afin d'avoir un exemple du foncionnement. L'évaluation n'est pas disponible dans ce code.
+
+- **Fine tuning**: une tentative de finetuning est disponible, mais s'est soldé par un echec
